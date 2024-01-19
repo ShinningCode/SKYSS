@@ -30,6 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMenu));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel19 = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel16 = new System.Windows.Forms.Panel();
             this.panel17 = new System.Windows.Forms.Panel();
             this.panel18 = new System.Windows.Forms.Panel();
@@ -46,24 +49,27 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
-            this.panel19 = new System.Windows.Forms.Panel();
+            this.pnlFondo = new System.Windows.Forms.Panel();
+            this.pnlMarcaAgua = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnEstaciones = new System.Windows.Forms.Button();
             this.btnRespaldos = new System.Windows.Forms.Button();
             this.btnRestaurar = new System.Windows.Forms.Button();
             this.btnUsuarios = new System.Windows.Forms.Button();
             this.btnRegistro = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            this.panel19.SuspendLayout();
             this.panel16.SuspendLayout();
             this.panel13.SuspendLayout();
             this.panel10.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.panel19.SuspendLayout();
+            this.pnlFondo.SuspendLayout();
+            this.pnlMarcaAgua.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -84,8 +90,39 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 705);
+            this.panel1.Size = new System.Drawing.Size(200, 706);
             this.panel1.TabIndex = 0;
+            // 
+            // panel19
+            // 
+            this.panel19.Controls.Add(this.panel9);
+            this.panel19.Controls.Add(this.label2);
+            this.panel19.Controls.Add(this.pictureBox1);
+            this.panel19.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel19.Location = new System.Drawing.Point(0, 543);
+            this.panel19.Name = "panel19";
+            this.panel19.Size = new System.Drawing.Size(200, 163);
+            this.panel19.TabIndex = 13;
+            // 
+            // panel9
+            // 
+            this.panel9.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel9.Location = new System.Drawing.Point(0, 162);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(10, 1);
+            this.panel9.TabIndex = 5;
+            // 
+            // label2
+            // 
+            this.label2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label2.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(116)))), ((int)(((byte)(26)))));
+            this.label2.Location = new System.Drawing.Point(0, 135);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(200, 27);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "All Rights Reserved @SkySoftwareStudio";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel16
             // 
@@ -227,6 +264,18 @@
             this.panel2.Size = new System.Drawing.Size(200, 33);
             this.panel2.TabIndex = 1;
             // 
+            // label3
+            // 
+            this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(237)))), ((int)(((byte)(243)))));
+            this.label3.Location = new System.Drawing.Point(0, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(98, 33);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Bienvenida(o) :";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // lblNombre
             // 
             this.lblNombre.Dock = System.Windows.Forms.DockStyle.Right;
@@ -239,21 +288,40 @@
             this.lblNombre.Text = "SisHor";
             this.lblNombre.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // panel19
+            // pnlFondo
             // 
-            this.panel19.Controls.Add(this.label2);
-            this.panel19.Controls.Add(this.pictureBox1);
-            this.panel19.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel19.Location = new System.Drawing.Point(0, 543);
-            this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(200, 162);
-            this.panel19.TabIndex = 13;
+            this.pnlFondo.Controls.Add(this.pnlMarcaAgua);
+            this.pnlFondo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlFondo.Location = new System.Drawing.Point(200, 0);
+            this.pnlFondo.Name = "pnlFondo";
+            this.pnlFondo.Size = new System.Drawing.Size(684, 706);
+            this.pnlFondo.TabIndex = 1;
+            // 
+            // pnlMarcaAgua
+            // 
+            this.pnlMarcaAgua.Controls.Add(this.label1);
+            this.pnlMarcaAgua.Location = new System.Drawing.Point(71, 52);
+            this.pnlMarcaAgua.Name = "pnlMarcaAgua";
+            this.pnlMarcaAgua.Size = new System.Drawing.Size(278, 287);
+            this.pnlMarcaAgua.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 80F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(37)))), ((int)(((byte)(43)))));
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(278, 287);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Sky Software Studio";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox1.Image = global::ProyectoUdemy.Properties.Resources.SS_removebg_preview;
+            this.pictureBox1.Image = global::ProyectoUdemy.Properties.Resources.SS__1__removebg_preview;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox1.Name = "pictureBox1";
@@ -261,6 +329,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // btnEstaciones
             // 
@@ -356,37 +425,15 @@
             this.btnRegistro.Text = "Registro";
             this.btnRegistro.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnRegistro.UseVisualStyleBackColor = true;
-            // 
-            // label3
-            // 
-            this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(237)))), ((int)(((byte)(243)))));
-            this.label3.Location = new System.Drawing.Point(0, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(98, 33);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Bienvenida(o) :";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label2
-            // 
-            this.label2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label2.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(116)))), ((int)(((byte)(26)))));
-            this.label2.Location = new System.Drawing.Point(0, 135);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(200, 27);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "All Rights Reserved @SkySoftwareStudio";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnRegistro.Click += new System.EventHandler(this.btnRegistro_Click);
             // 
             // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
-            this.ClientSize = new System.Drawing.Size(800, 705);
+            this.ClientSize = new System.Drawing.Size(884, 706);
+            this.Controls.Add(this.pnlFondo);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmMenu";
@@ -394,13 +441,15 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
+            this.panel19.ResumeLayout(false);
             this.panel16.ResumeLayout(false);
             this.panel13.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
-            this.panel19.ResumeLayout(false);
+            this.pnlFondo.ResumeLayout(false);
+            this.pnlMarcaAgua.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -435,6 +484,10 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Panel pnlFondo;
+        private System.Windows.Forms.Panel pnlMarcaAgua;
+        private System.Windows.Forms.Label label1;
     }
 }
 

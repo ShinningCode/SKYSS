@@ -8,16 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ProyectoUdemy
+namespace ProyectoUdemy.Presentacion
 {
-    public partial class frmMenu : Form
+    public partial class ucRegistro : UserControl
     {
-        public frmMenu()
+        public ucRegistro()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
