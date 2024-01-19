@@ -103,5 +103,14 @@
   <ItemGroup>
     <None Include="Resources\red-de-computadoras.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSS final.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SS__3_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SS-removebg-preview.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

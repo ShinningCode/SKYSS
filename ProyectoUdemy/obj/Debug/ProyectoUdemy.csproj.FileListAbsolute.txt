@@ -2,9 +2,9 @@ C:\C#\ProyectoUdemy\ProyectoUdemy\bin\Debug\ProyectoUdemy.exe.config
 C:\C#\ProyectoUdemy\ProyectoUdemy\bin\Debug\ProyectoUdemy.exe
 C:\C#\ProyectoUdemy\ProyectoUdemy\bin\Debug\ProyectoUdemy.pdb
 C:\C#\ProyectoUdemy\ProyectoUdemy\obj\Debug\ProyectoUdemy.csproj.AssemblyReference.cache
-C:\C#\ProyectoUdemy\ProyectoUdemy\obj\Debug\ProyectoUdemy.Form1.resources
 C:\C#\ProyectoUdemy\ProyectoUdemy\obj\Debug\ProyectoUdemy.Properties.Resources.resources
 C:\C#\ProyectoUdemy\ProyectoUdemy\obj\Debug\ProyectoUdemy.csproj.GenerateResource.cache
 C:\C#\ProyectoUdemy\ProyectoUdemy\obj\Debug\ProyectoUdemy.csproj.CoreCompileInputs.cache
 C:\C#\ProyectoUdemy\ProyectoUdemy\obj\Debug\ProyectoUdemy.exe
 C:\C#\ProyectoUdemy\ProyectoUdemy\obj\Debug\ProyectoUdemy.pdb
+C:\C#\ProyectoUdemy\ProyectoUdemy\obj\Debug\ProyectoUdemy.frmMenu.resources
