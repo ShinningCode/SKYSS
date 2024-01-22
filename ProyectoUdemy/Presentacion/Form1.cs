@@ -31,10 +31,10 @@ namespace ProyectoUdemy
 
         private void btnRegistro_Click(object sender, EventArgs e)
         {
-            ucRegistro registro = new ucRegistro();
-            pnlFondo.Controls.Clear();
+            Personal registro = new Personal();
+            pnlPadre.Controls.Clear();
             registro.Dock = DockStyle.Fill;
-            pnlFondo.Controls.Add(registro);
+            pnlPadre.Controls.Add(registro);
         }
     }
 }

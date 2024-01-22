@@ -8,4 +8,4 @@ C:\C#\ProyectoUdemy\ProyectoUdemy\obj\Debug\ProyectoUdemy.csproj.CoreCompileInpu
 C:\C#\ProyectoUdemy\ProyectoUdemy\obj\Debug\ProyectoUdemy.exe
 C:\C#\ProyectoUdemy\ProyectoUdemy\obj\Debug\ProyectoUdemy.pdb
 C:\C#\ProyectoUdemy\ProyectoUdemy\obj\Debug\ProyectoUdemy.frmMenu.resources
-C:\C#\ProyectoUdemy\ProyectoUdemy\obj\Debug\ProyectoUdemy.Presentacion.ucRegistro.resources
+C:\C#\ProyectoUdemy\ProyectoUdemy\obj\Debug\ProyectoUdemy.Presentacion.Personal.resources

@@ -55,19 +55,19 @@
     <Compile Include="Presentacion\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presentacion\ucRegistro.cs">
+    <Compile Include="Presentacion\Personal.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Presentacion\ucRegistro.Designer.cs">
-      <DependentUpon>ucRegistro.cs</DependentUpon>
+    <Compile Include="Presentacion\Personal.Designer.cs">
+      <DependentUpon>Personal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Presentacion\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Presentacion\ucRegistro.resx">
-      <DependentUpon>ucRegistro.cs</DependentUpon>
+    <EmbeddedResource Include="Presentacion\Personal.resx">
+      <DependentUpon>Personal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -92,7 +92,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\informacion-personal.png" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Properties\nueva-base-de-datos.png" />
   </ItemGroup>

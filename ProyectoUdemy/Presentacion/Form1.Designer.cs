@@ -45,30 +45,30 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
-            this.pnlFondo = new System.Windows.Forms.Panel();
+            this.pnlPadre = new System.Windows.Forms.Panel();
             this.pnlMarcaAgua = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.panel20 = new System.Windows.Forms.Panel();
+            this.panel21 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnEstaciones = new System.Windows.Forms.Button();
             this.btnRespaldos = new System.Windows.Forms.Button();
             this.btnRestaurar = new System.Windows.Forms.Button();
             this.btnUsuarios = new System.Windows.Forms.Button();
-            this.btnRegistro = new System.Windows.Forms.Button();
+            this.btnPersonal = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel19.SuspendLayout();
             this.panel16.SuspendLayout();
             this.panel13.SuspendLayout();
             this.panel10.SuspendLayout();
             this.panel6.SuspendLayout();
-            this.panel4.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.pnlFondo.SuspendLayout();
+            this.pnlPadre.SuspendLayout();
             this.pnlMarcaAgua.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -84,7 +84,6 @@
             this.panel1.Controls.Add(this.panel12);
             this.panel1.Controls.Add(this.panel6);
             this.panel1.Controls.Add(this.panel8);
-            this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -99,9 +98,9 @@
             this.panel19.Controls.Add(this.label2);
             this.panel19.Controls.Add(this.pictureBox1);
             this.panel19.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel19.Location = new System.Drawing.Point(0, 543);
+            this.panel19.Location = new System.Drawing.Point(0, 537);
             this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(200, 163);
+            this.panel19.Size = new System.Drawing.Size(200, 169);
             this.panel19.TabIndex = 13;
             // 
             // panel9
@@ -109,7 +108,7 @@
             this.panel9.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel9.Location = new System.Drawing.Point(0, 162);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(10, 1);
+            this.panel9.Size = new System.Drawing.Size(10, 7);
             this.panel9.TabIndex = 5;
             // 
             // label2
@@ -129,7 +128,7 @@
             this.panel16.Controls.Add(this.btnEstaciones);
             this.panel16.Controls.Add(this.panel17);
             this.panel16.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel16.Location = new System.Drawing.Point(0, 451);
+            this.panel16.Location = new System.Drawing.Point(0, 445);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(200, 92);
             this.panel16.TabIndex = 12;
@@ -145,7 +144,7 @@
             // panel18
             // 
             this.panel18.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel18.Location = new System.Drawing.Point(0, 441);
+            this.panel18.Location = new System.Drawing.Point(0, 435);
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(200, 10);
             this.panel18.TabIndex = 11;
@@ -155,7 +154,7 @@
             this.panel13.Controls.Add(this.btnRespaldos);
             this.panel13.Controls.Add(this.panel14);
             this.panel13.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel13.Location = new System.Drawing.Point(0, 349);
+            this.panel13.Location = new System.Drawing.Point(0, 343);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(200, 92);
             this.panel13.TabIndex = 10;
@@ -171,7 +170,7 @@
             // panel15
             // 
             this.panel15.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel15.Location = new System.Drawing.Point(0, 339);
+            this.panel15.Location = new System.Drawing.Point(0, 333);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(200, 10);
             this.panel15.TabIndex = 9;
@@ -181,7 +180,7 @@
             this.panel10.Controls.Add(this.btnRestaurar);
             this.panel10.Controls.Add(this.panel11);
             this.panel10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel10.Location = new System.Drawing.Point(0, 247);
+            this.panel10.Location = new System.Drawing.Point(0, 241);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(200, 92);
             this.panel10.TabIndex = 8;
@@ -197,7 +196,7 @@
             // panel12
             // 
             this.panel12.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel12.Location = new System.Drawing.Point(0, 237);
+            this.panel12.Location = new System.Drawing.Point(0, 231);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(200, 10);
             this.panel12.TabIndex = 7;
@@ -207,7 +206,7 @@
             this.panel6.Controls.Add(this.btnUsuarios);
             this.panel6.Controls.Add(this.panel7);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel6.Location = new System.Drawing.Point(0, 145);
+            this.panel6.Location = new System.Drawing.Point(0, 139);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(200, 92);
             this.panel6.TabIndex = 6;
@@ -223,35 +222,20 @@
             // panel8
             // 
             this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel8.Location = new System.Drawing.Point(0, 135);
+            this.panel8.Location = new System.Drawing.Point(0, 129);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(200, 10);
             this.panel8.TabIndex = 5;
             // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.btnRegistro);
-            this.panel4.Controls.Add(this.panel5);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(0, 43);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(200, 92);
-            this.panel4.TabIndex = 3;
-            // 
-            // panel5
-            // 
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(10, 92);
-            this.panel5.TabIndex = 4;
-            // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.panel20);
+            this.panel3.Controls.Add(this.btnPersonal);
+            this.panel3.Controls.Add(this.panel21);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 33);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(200, 10);
+            this.panel3.Size = new System.Drawing.Size(200, 96);
             this.panel3.TabIndex = 2;
             // 
             // panel2
@@ -288,14 +272,14 @@
             this.lblNombre.Text = "SisHor";
             this.lblNombre.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // pnlFondo
+            // pnlPadre
             // 
-            this.pnlFondo.Controls.Add(this.pnlMarcaAgua);
-            this.pnlFondo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlFondo.Location = new System.Drawing.Point(200, 0);
-            this.pnlFondo.Name = "pnlFondo";
-            this.pnlFondo.Size = new System.Drawing.Size(684, 706);
-            this.pnlFondo.TabIndex = 1;
+            this.pnlPadre.Controls.Add(this.pnlMarcaAgua);
+            this.pnlPadre.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlPadre.Location = new System.Drawing.Point(200, 0);
+            this.pnlPadre.Name = "pnlPadre";
+            this.pnlPadre.Size = new System.Drawing.Size(684, 706);
+            this.pnlPadre.TabIndex = 1;
             // 
             // pnlMarcaAgua
             // 
@@ -316,6 +300,22 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Sky Software Studio";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel20
+            // 
+            this.panel20.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel20.Location = new System.Drawing.Point(10, 0);
+            this.panel20.Name = "panel20";
+            this.panel20.Size = new System.Drawing.Size(190, 10);
+            this.panel20.TabIndex = 6;
+            // 
+            // panel21
+            // 
+            this.panel21.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel21.Location = new System.Drawing.Point(0, 0);
+            this.panel21.Name = "panel21";
+            this.panel21.Size = new System.Drawing.Size(10, 96);
+            this.panel21.TabIndex = 7;
             // 
             // pictureBox1
             // 
@@ -407,25 +407,24 @@
             this.btnUsuarios.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnUsuarios.UseVisualStyleBackColor = true;
             // 
-            // btnRegistro
+            // btnPersonal
             // 
-            this.btnRegistro.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnRegistro.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnRegistro.FlatAppearance.BorderSize = 0;
-            this.btnRegistro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRegistro.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistro.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(237)))), ((int)(((byte)(243)))));
-            this.btnRegistro.Image = global::ProyectoUdemy.Properties.Resources.nueva_base_de_datos;
-            this.btnRegistro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRegistro.Location = new System.Drawing.Point(10, 0);
-            this.btnRegistro.Name = "btnRegistro";
-            this.btnRegistro.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.btnRegistro.Size = new System.Drawing.Size(190, 92);
-            this.btnRegistro.TabIndex = 5;
-            this.btnRegistro.Text = "Registro";
-            this.btnRegistro.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnRegistro.UseVisualStyleBackColor = true;
-            this.btnRegistro.Click += new System.EventHandler(this.btnRegistro_Click);
+            this.btnPersonal.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPersonal.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnPersonal.FlatAppearance.BorderSize = 0;
+            this.btnPersonal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPersonal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPersonal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(237)))), ((int)(((byte)(243)))));
+            this.btnPersonal.Image = global::ProyectoUdemy.Properties.Resources.informacion_personal;
+            this.btnPersonal.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPersonal.Location = new System.Drawing.Point(10, 0);
+            this.btnPersonal.Name = "btnPersonal";
+            this.btnPersonal.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.btnPersonal.Size = new System.Drawing.Size(190, 96);
+            this.btnPersonal.TabIndex = 8;
+            this.btnPersonal.Text = "Personal";
+            this.btnPersonal.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnPersonal.UseVisualStyleBackColor = true;
             // 
             // frmMenu
             // 
@@ -433,7 +432,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
             this.ClientSize = new System.Drawing.Size(884, 706);
-            this.Controls.Add(this.pnlFondo);
+            this.Controls.Add(this.pnlPadre);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmMenu";
@@ -446,9 +445,9 @@
             this.panel13.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
-            this.pnlFondo.ResumeLayout(false);
+            this.pnlPadre.ResumeLayout(false);
             this.pnlMarcaAgua.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -461,8 +460,6 @@
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label lblNombre;
@@ -472,7 +469,6 @@
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.Button btnRegistro;
         private System.Windows.Forms.Panel panel16;
         private System.Windows.Forms.Button btnEstaciones;
         private System.Windows.Forms.Panel panel17;
@@ -485,9 +481,12 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Panel pnlFondo;
+        private System.Windows.Forms.Panel pnlPadre;
         private System.Windows.Forms.Panel pnlMarcaAgua;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel20;
+        private System.Windows.Forms.Button btnPersonal;
+        private System.Windows.Forms.Panel panel21;
     }
 }
 
